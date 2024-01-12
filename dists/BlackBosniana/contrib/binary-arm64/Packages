@@ -1,0 +1,62 @@
+Package: firmware-b43-installer
+Source: b43-fwcutter
+Version: 1:019-8
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 27
+Depends: b43-fwcutter (>= 1:019-8), pciutils, bzip2, ca-certificates, wget
+Breaks: firmware-b43-lpphy-installer (<= 1:015-14)
+Replaces: firmware-b43-lpphy-installer (<= 1:015-14)
+Homepage: https://wireless.wiki.kernel.org/en/users/drivers/b43
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43-installer_019-8_all.deb
+Size: 7384
+SHA256: fa2662276289e51987a16fc9ab0dcd8bcc2afca45c5f9c842b6d5642897566a5
+SHA1: 4763a617966fdb3b67355f7732b88ed54ac4d264
+MD5sum: e820f3f53b635c290fb6569f580871cc
+Description: firmware installer for the b43 driver
+ This package downloads and installs the firmware needed by the b43
+ kernel driver for some Broadcom 43xx wireless network cards.
+ .
+ Supported chipsets:
+  * BCM4306/3 (chip revision 3 only);
+  * BCM4311 (NOT PCI Id 14e4:4313);
+  * BCM4312;
+  * BCM43131;
+  * BCM4318;
+  * BCM4321 (only partial support, not all versions tested);
+  * BCM43217;
+  * BCM4322 (only partial support for some versions, not all versions tested);
+  * BCM43222 (not all versions tested);
+  * BCM43224 (not all versions tested);
+  * BCM43225;
+  * BCM43227;
+  * BCM43228;
+  * BCM4331;
+  * BCM47xx (detection not reliable, may not support all versions).
+
+Package: firmware-b43legacy-installer
+Source: b43-fwcutter
+Version: 1:019-8
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 24
+Depends: b43-fwcutter (>= 1:019-8), pciutils, ca-certificates, wget
+Homepage: https://wireless.wiki.kernel.org/en/users/drivers/b43
+Priority: optional
+Section: contrib/kernel
+Filename: pool/contrib/b/b43-fwcutter/firmware-b43legacy-installer_019-8_all.deb
+Size: 6576
+SHA256: 60c7801b9194c1cf5ee2e6031a1b0e7fc39a9e3d9dfd0b1bbeb060ae71a58bbf
+SHA1: 284cbe4158170c58ec8b407c84b23844513c1101
+MD5sum: 819e7d9b358fbe3acbd3f985787fb54f
+Description: firmware installer for the b43legacy driver
+ This package downloads and installs the firmware needed by the b43legacy
+ kernel driver for some Broadcom 43xx wireless network cards.
+ .
+ Supported chipsets:
+  * BCM4301;
+  * BCM4306/2;
+  * BCM4306.
+

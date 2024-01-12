@@ -1,0 +1,151 @@
+Package: broadcom-sta-common
+Source: broadcom-sta
+Version: 6.30.223.271-23
+Architecture: all
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 28
+Recommends: broadcom-sta-source, module-assistant
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-common_6.30.223.271-23_all.deb
+Size: 9184
+SHA256: b2baf75e59f52e655f1d4b214153725b0c8efc39dd5ea82f86d22127874678d6
+SHA1: 7472592d5eba326c404490a6560bd232ce98055f
+MD5sum: d552799ff70370ee036e7ff495c651be
+Description: Common files for the Broadcom STA Wireless driver
+ Broadcom STA is a binary-only device driver to support the following IEEE
+ 802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+ BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+ BCM4331-, BCM4360-, and BCM4352-based hardware.
+ .
+ This package contains the common files and it should not be installed manually
+ (it will be installed automatically as needed).
+
+Package: broadcom-sta-dkms
+Source: broadcom-sta
+Version: 6.30.223.271-23
+Architecture: all
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 14141
+Depends: dkms (>= 2.1.0.0)
+Recommends: wireless-tools
+Conflicts: broadcom-sta-modules
+Provides: broadcom-sta-modules
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-23_all.deb
+Size: 2205688
+SHA256: 9666238f1d174963d0037efe11685426e2fc6303e0bd6c669e4b880f19e07b32
+SHA1: 24a5e845d53814e8fa3ac20850538a1ded01542d
+MD5sum: 42f8d68a8534a886cf910a6f67f646eb
+Description: dkms source for the Broadcom STA Wireless driver
+ Broadcom STA is a binary-only device driver to support the following IEEE
+ 802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+ BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+ BCM4331-, BCM4360-, and BCM4352-based hardware.
+ .
+ This package provides the source code for the wl kernel modules and makes use
+ of the DKMS build utility to install them for the running kernel. The
+ alternative package broadcom-sta-source can be used instead in case of build
+ problems.
+ .
+ The wireless-tools package is also required in order to make use of these
+ modules. Kernel source or headers are required to compile these modules.
+
+Package: broadcom-sta-source
+Source: broadcom-sta
+Version: 6.30.223.271-23
+Architecture: all
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 2186
+Depends: debhelper-compat (= 12), make, xz-utils
+Recommends: module-assistant
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/b/broadcom-sta/broadcom-sta-source_6.30.223.271-23_all.deb
+Size: 2219584
+SHA256: 424a9f84c8c65be45ef29ee13fd6a9ea95bac640dcb439e2cf5d397ccb6a4f68
+SHA1: fde32420c5a811afef0609e0b548252984f40894
+MD5sum: 41cc2fb478201a9e42a1ccd14a2e4cbb
+Description: Source for the Broadcom STA Wireless driver
+ Broadcom STA is a binary-only device driver to support the following IEEE
+ 802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+ BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+ BCM4331-, BCM4360-, and BCM4352-based hardware.
+ .
+ This package provides the source code for the wl kernel modules. It makes use
+ of kernel-package or module-assistant build systems. The alternative
+ broadcom-sta-dkms package can be installed instead and might be easier to use
+ with simple system configurations.
+ .
+ The wireless-tools package is also required in order to make use of these
+ modules.  Kernel source or headers are required to compile these modules.
+
+Package: midisport-firmware
+Version: 1.2-4
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Installed-Size: 160
+Depends: fxload, udev
+Homepage: http://usb-midi-fw.sourceforge.net/
+Priority: extra
+Section: non-free/sound
+Filename: pool/non-free/m/midisport-firmware/midisport-firmware_1.2-4_all.deb
+Size: 28022
+SHA256: 7cbf9c60ee83ecb151ad82c6e52ab99611ad34845584f3da4c3e2137fb380afa
+SHA1: f73674d65d647400eb79cb007138f7f98c9a6ed4
+MD5sum: ba50cd6a2647ce29a8f95b46cf186898
+Description: Firmware loader for M-Audio's MidiSport devices
+ This package allows you to use M-Audio's USB MIDI and Audio interfaces with
+ Linux. These devices require a firmware download before an operating system
+ driver (e.g. ALSA's snd-usb-audio) can access them.
+ .
+ Supported devices:
+  - MidiSport 1x1
+  - MidiSport 2x2
+  - MidiSport 4x4
+  - MidiSport 8x8
+  - KeyStation (old models: 49, 61)
+  - Oxygen
+  - Radium49
+  - Radium61
+  - Uno
+ The loader is not required for the MidiSport 2x4 and for newer KeyStation
+ models (49e, 61es, Pro 88).
+
+Package: r8168-dkms
+Source: r8168
+Version: 8.051.02-2
+Architecture: all
+Maintainer: Andreas Beckmann <anbe@debian.org>
+Installed-Size: 1402
+Depends: dkms (>= 3.0.3-4~)
+Homepage: https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Priority: optional
+Section: non-free/kernel
+Filename: pool/non-free/r/r8168/r8168-dkms_8.051.02-2_all.deb
+Size: 105892
+SHA256: 4290bb247416637ca4ccc868442f61b9eacc0387e7292d174ff9c8bf527d05d5
+SHA1: 964743b1eec7c0dc6f35c435316c08f85b5f1a09
+MD5sum: 331197c6c4f7292d365b786c18b6959b
+Description: dkms source for the r8168 network driver
+ r8168 is the Linux device driver released by RealTek for their network
+ controllers with PCI-Express interface:
+  * 10/100/1000M Gigabit Ethernet: RTL8111B, RTL8111C, RTL8111D, RTL8111E,
+    RTL8111F, RTL8111G(S), RTL8111H(S), RTL8118(A)(S), RTL8119i, RTL8111L,
+    RTL8111K, RTL8168B, RTL8168E, RTL8168H, RTL8111DP, RTL8111EP, RTL8111FP,
+    RTL8411, RTL8411B
+ .
+ This driver should only be used for devices not yet supported by the
+ in-kernel driver r8169. Please see the README.Debian for instructions how
+ to report bugs against r8169 that made it necessary to use r8168-dkms.
+ .
+ Installation of the r8168-dkms package will disable the in-kernel r8169
+ module. To re-enable r8169, the r8168-dkms package must be purged.
+ .
+ This package provides the dkms source code for the r8168 kernel modules.
+ Kernel source or headers are required to compile these modules.
+
