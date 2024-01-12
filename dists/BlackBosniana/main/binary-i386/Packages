@@ -350,7 +350,7 @@ Description: programmable completion for the bash shell
 
 Package: blackbosniana-apps-basics
 Source: blackbosniana-core
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: Denis Maslo <denios@blackbosniana.sh>
 Installed-Size: 42
@@ -363,17 +363,17 @@ Replaces: apt-blackbosniana, base-files, bash, blackbosniana-interface-common, b
 Homepage: https://deniosm.github.io
 Priority: optional
 Section: blackbosniana
-Filename: pool/main/b/blackbosniana-core/blackbosniana-apps-basics_1.0.8_all.deb
-Size: 12952
-SHA256: 9ec9f408038078a7c8d5c2e2b5f39e81aa18bda9127b3d0f2ade6d6febe46c2a
-SHA1: a0ce1fe77706c7a360f0541893196a48a32bb8fb
-MD5sum: d38486a187af3249a818db5e74000ed5
+Filename: pool/main/b/blackbosniana-core/blackbosniana-apps-basics_1.0.9_all.deb
+Size: 12980
+SHA256: fffbe00b1b5f2c629418b4dd993a0a6159eabc9fa440241e0c0b003083299cc0
+SHA1: 63a04ef59c5baab9e39a10f351918d615e9479b1
+MD5sum: d899f65dbadafdd517f0aa8cba86c8ef
 Description: Basic applications for headless
   Install basic apps and configurations
 
 Package: blackbosniana-configs-zsh
 Source: blackbosniana-core
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: Denis Maslo <denios@blackbosniana.sh>
 Installed-Size: 48
@@ -383,11 +383,11 @@ Replaces: zsh
 Homepage: https://www.blackbosnianasec.org
 Priority: optional
 Section: shells
-Filename: pool/main/b/blackbosniana-core/blackbosniana-configs-zsh_1.0.8_all.deb
-Size: 13932
-SHA256: 8aae4dbbfb6c3ce38d9fbe5173869e22710fdb60ac9b8be29d0d5fc9c7a9b7e5
-SHA1: 8f023b605b523182e57734a18599f7a0d35f274f
-MD5sum: ac9e92ae3fc739b5923375c068724257
+Filename: pool/main/b/blackbosniana-core/blackbosniana-configs-zsh_1.0.9_all.deb
+Size: 13976
+SHA256: 25d54f2bc793bc42d8d04c92cf30a45dc3e82734376cc216e01fb4152534d242
+SHA1: dc3b2fc43793c6e8b88b9fad9c57377533360794
+MD5sum: 2b3d2a9a555ae76fb4712c909ba9048f
 Description: BlackBosniana ZSH configuration
   This is BlackBosniana Security,
   a security focused GNU/Linux distribution.
@@ -396,7 +396,7 @@ Description: BlackBosniana ZSH configuration
 
 Package: blackbosniana-core-lite
 Source: blackbosniana-core
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: Denis Maslo <denios@blackbosniana.sh>
 Installed-Size: 49
@@ -404,11 +404,11 @@ Depends: blackbosniana-core
 Homepage: https://deniosm.github.io
 Priority: optional
 Section: blackbosniana
-Filename: pool/main/b/blackbosniana-core/blackbosniana-core-lite_1.0.8_all.deb
-Size: 13012
-SHA256: 0d70f1549eecc0e49fc949f6570154e31883218f050de0ad382058068a461237
-SHA1: 7bf9967a1052b3baea5dde308d465ab9beee1b3d
-MD5sum: b79dc97a89ffb3cb8a6d28a3bc69088c
+Filename: pool/main/b/blackbosniana-core/blackbosniana-core-lite_1.0.9_all.deb
+Size: 13036
+SHA256: d9503d17bf25b8ce99faba8ea5c9648ec7efe9a4a1424d7ef1534c0cf5a29729
+SHA1: 99943f80f4d981e752745d042fd94c506a1cdc85
+MD5sum: de7529a05853392b0c635feedd1a9180
 Description: Lightweight MATE settings for BlackBosniana Core
   Core package for the BlackBosniana Debian distribution.
   .
@@ -417,7 +417,7 @@ Description: Lightweight MATE settings for BlackBosniana Core
 
 Package: blackbosniana-core-recommends
 Source: blackbosniana-core
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: Denis Maslo <denios@blackbosniana.sh>
 Installed-Size: 42
@@ -425,16 +425,16 @@ Depends: apparmor, apparmor-profiles, apparmor-profiles-extra, apparmor-utils, s
 Homepage: https://deniosm.github.io
 Priority: optional
 Section: blackbosniana
-Filename: pool/main/b/blackbosniana-core/blackbosniana-core-recommends_1.0.8_all.deb
-Size: 12764
-SHA256: c137d597baed9129fa231949fea014b96a324e205bdb308329c5492a512cfe81
-SHA1: b402b854458e6144645136248ec0b66125083466
-MD5sum: c98852ec4ae7a601b06d3e8381045a90
+Filename: pool/main/b/blackbosniana-core/blackbosniana-core-recommends_1.0.9_all.deb
+Size: 12800
+SHA256: 0bfa85aed73fe1bc7f4d1480145174bacd40efed39e32f606f3836e8f05a3b2b
+SHA1: 2f4044ca85b34e809d4bdf32382e62ba9a0394cd
+MD5sum: 6da4b90521e3d195b63e3362ef3bef90
 Description: BlackBosniana MetaPackage
 
 Package: blackbosniana-drivers
 Source: blackbosniana-core
-Version: 1.0.8
+Version: 1.0.9
 Architecture: all
 Maintainer: Denis Maslo <denios@blackbosniana.sh>
 Installed-Size: 42
@@ -444,11 +444,11 @@ Suggests: firmware-ipw2x00
 Homepage: https://deniosm.github.io
 Priority: optional
 Section: blackbosniana
-Filename: pool/main/b/blackbosniana-core/blackbosniana-drivers_1.0.8_all.deb
-Size: 13108
-SHA256: 5293368979bfb4630529e9908509289a1677204b543e2b21073699b825b2e785
-SHA1: 7a4f37914638ef97174fd8790a3a25490db98592
-MD5sum: 1725268e1b03e06df91ad091c3726373
+Filename: pool/main/b/blackbosniana-core/blackbosniana-drivers_1.0.9_all.deb
+Size: 13128
+SHA256: a5914e8b97d500ad6d62a6a6242167cbcf5bed8c0a5ec95ccd9ce507dd40bee1
+SHA1: c9fb2527aace8c5070d3875208c97276be574074
+MD5sum: b0ecfb1a5625dc99b4f064d9f6cfd858
 Description: BlackBosniana drivers metapackage.
   This metapackage installs all the free and non-free drivers to make BlackBosniana OS
   run on as many hardware combinations as possible.
